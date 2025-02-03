@@ -52,7 +52,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _FloatPanner: 5
-    - _FresnelEffect: 1
+    - _FresnelEffect: 1.98
     - _QueueControl: 0
     - _QueueOffset: 0
     - _StarSpeed: 2
