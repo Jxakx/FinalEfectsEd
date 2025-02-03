@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_2efb9c1619be4232899701ef043e84bb_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b90d46fbdb9da8a48906229cace812d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_3ba5a173e06b4d00af919ba637e042ed_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 353ceeb7230105b4bb7b4a9c32aa256a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -63,12 +67,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _EmissionPower: 13
     - _FloatPanner: 5
-    - _FresnelEffect: 2
+    - _FresnelEffect: 1.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _StarSpeed: 2
+    - _StarSpeed: 1.3
     m_Colors:
     - _Color_1: {r: 32, g: 0, b: 0, a: 0}
     - _Color_2: {r: 0, g: 4.6409984, b: 32, a: 0}
+    - _FresnelColor: {r: 1, g: 0.8107855, b: 0.5235849, a: 0}
   m_BuildTextureStacks: []
