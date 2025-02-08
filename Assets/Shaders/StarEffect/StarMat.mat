@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _EmissionPower: 10
-    - _FresnelEffect: 3
+    - _FresnelEffect: 1.3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _StarSpeed: 2
