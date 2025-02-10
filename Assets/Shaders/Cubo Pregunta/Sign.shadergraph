@@ -31,7 +31,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "567b37fe771a438bbbf1713e0c9444f7"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -64,8 +68,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": -134.99998474121095,
+            "y": -58.000003814697269
         },
         "m_Blocks": [
             {
@@ -81,8 +85,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -134.99998474121095,
+            "y": 247.0
         },
         "m_Blocks": [
             {
@@ -260,6 +264,26 @@
     "m_ObjectId": "54f457a67bd844f1911cf00889470d90",
     "m_Name": "",
     "m_ChildObjectList": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "567b37fe771a438bbbf1713e0c9444f7",
+    "m_Title": "SHADER SIGN",
+    "m_Content": "Quería aplicar este shader en un sistema de partículas para luego configurarlo y que se quede quieto dentro del cubo. En la sección Material del renderer del sistema de partículas está colocado un mat con este shader",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -496.0,
+        "y": -191.0,
+        "width": 235.677490234375,
+        "height": 575.2650146484375
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
