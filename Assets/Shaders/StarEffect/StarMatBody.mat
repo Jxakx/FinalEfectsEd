@@ -61,7 +61,7 @@ Material:
     m_Floats:
     - _EmissionPower: 13
     - _FloatPanner: 5
-    - _FresnelEffect: 2.8
+    - _FresnelEffect: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _StarSpeed: 1.3
