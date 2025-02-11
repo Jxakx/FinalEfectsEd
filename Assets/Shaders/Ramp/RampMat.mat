@@ -37,6 +37,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_2cb64ee973d543e08e102a0ae1c57ac6_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 06dfa933ebd755d43bc9635a9f04fbf3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_669a4bf80d2b436291aacf4d919aeefd_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6607deb5f7445dd439bd3fd1752ddf99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,8 +60,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _ArrowsVelocity: -0.2
+    - _Emission: 4
+    - _Emission_Arrow: 1
+    - _Emission_Base: 0.4
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _Arrow_Color: {r: 0, g: 2.775315, b: 2.9960785, a: 0}
     - _ArrowsTiling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
