@@ -97,8 +97,31 @@
             "m_Id": "9cce653ebdc046dd820af5a6b9135d66"
         }
     ],
-    "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "d001ca9e8780407fb7316af411b952e0"
+        },
+        {
+            "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
+        }
+    ],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "c859c657e4fa43928176e0c114b1bb64"
+        },
+        {
+            "m_Id": "dfee6bb319224c8a9f12129618e8998c"
+        },
+        {
+            "m_Id": "7c6513b037ac43e794e6123c9b163019"
+        },
+        {
+            "m_Id": "d6bc49f019a343a2ac135a4c82f23e4a"
+        },
+        {
+            "m_Id": "66d87f7916b245ff874354dc2550faf3"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -387,17 +410,17 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "15e3415f292f468697aff8b257042a32",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 300.0,
-            "y": 1370.0,
-            "width": 207.99993896484376,
-            "height": 302.0
+            "x": 311.9999694824219,
+            "y": 1697.0,
+            "width": 208.00003051757813,
+            "height": 302.0001220703125
         }
     },
     "m_Slots": [
@@ -483,17 +506,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "1cdcf683462f4e5faa3f65855ec78f4d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 377.0,
-            "y": 1728.0001220703125,
-            "width": 153.99993896484376,
-            "height": 33.9998779296875
+            "x": 389.0,
+            "y": 2055.0,
+            "width": 154.00006103515626,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -591,17 +614,17 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "25e9bab4e9c3497da49b6cb5ed6a7c5d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 51.0,
-            "y": 981.0000610351563,
-            "width": 208.00003051757813,
-            "height": 301.99993896484377
+            "x": 33.0000114440918,
+            "y": 1066.0,
+            "width": 208.00001525878907,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -1180,6 +1203,17 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "57c4ff9460284c16b43f5ff186526f9b",
+    "m_Title": "AURA DE LUZ",
+    "m_Position": {
+        "x": -123.9999771118164,
+        "y": 1638.0001220703125
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
     "m_ObjectId": "5b0b89dbef0240be8b9272fbf905350a",
@@ -1375,6 +1409,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "66d87f7916b245ff874354dc2550faf3",
+    "m_Title": "",
+    "m_Content": "Noté que el efecto de la estrella, además de que tenga colores cambiantes constantemente; tenía un aura brillante como de oro que se mantenía estable y lo quise replicar lo mejor que pude",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -169.0,
+        "y": 1864.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
     "m_ObjectId": "66ef712d05394b7494d0d3d81ba5aa67",
     "m_Id": 0,
@@ -1532,19 +1586,39 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7c6513b037ac43e794e6123c9b163019",
+    "m_Title": "FRACTION",
+    "m_Content": "Este nodo me ayudó a encontrar le tintineo que necesitaba para que pase por todos los colores posibles del gradient",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 292.0,
+        "y": 976.0,
+        "width": 225.0,
+        "height": 377.0
+    },
+    "m_Group": {
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "83848712b349412487ea00370d36ea2c",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -122.00001525878906,
-            "y": 1242.0,
-            "width": 129.99998474121095,
+            "x": -140.0,
+            "y": 1327.0,
+            "width": 129.9999542236328,
             "height": 34.0
         }
     },
@@ -1754,16 +1828,16 @@
     "m_Type": "UnityEditor.ShaderGraph.FresnelNode",
     "m_ObjectId": "900e271d966a482db6958ea3fc0da713",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Fresnel Effect",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 50.9999885559082,
-            "y": 1370.0,
-            "width": 208.00001525878907,
+            "x": 62.99996566772461,
+            "y": 1697.0,
+            "width": 208.0,
             "height": 326.0001220703125
         }
     },
@@ -1908,17 +1982,17 @@
     "m_Type": "UnityEditor.ShaderGraph.SmoothstepNode",
     "m_ObjectId": "9cce653ebdc046dd820af5a6b9135d66",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Smoothstep",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 804.0,
-            "y": 1370.0,
-            "width": 208.00006103515626,
-            "height": 326.0001220703125
+            "x": 814.0,
+            "y": 1697.0,
+            "width": 207.99993896484376,
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -2034,17 +2108,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "a864f9cc6fd54ee4ab37a1341dda367d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -111.00004577636719,
-            "y": 1728.0001220703125,
-            "width": 145.00001525878907,
-            "height": 33.9998779296875
+            "x": -98.99998474121094,
+            "y": 2055.0,
+            "width": 144.99996948242188,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2070,17 +2144,17 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "aa453c36a6964c859ccba74e6832d07e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 548.0000610351563,
-            "y": 1370.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 559.9999389648438,
+            "y": 1697.0,
+            "width": 208.0001220703125,
+            "height": 302.0001220703125
         }
     },
     "m_Slots": [
@@ -2113,17 +2187,17 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleGradient",
     "m_ObjectId": "bd10bd26ce15446a8f90480093ef8ea0",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Sample Gradient",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 548.0000610351563,
-            "y": 981.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 611.9999389648438,
+            "y": 903.0000610351563,
+            "width": 208.00006103515626,
+            "height": 301.99993896484377
         }
     },
     "m_Slots": [
@@ -2188,6 +2262,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "c859c657e4fa43928176e0c114b1bb64",
+    "m_Title": "GRADIENT",
+    "m_Content": "Este nodo era lo que buscaba para poder crear el siguimiento de colores que necesitaba el efecto de estrella que quería. Al trabajar en este nodo, pude guardar el preset de colores para usarlos en los sistemas de partículas del poder de la estrella.\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 286.0,
+        "y": 683.0,
+        "width": 232.96749877929688,
+        "height": 260.510009765625
+    },
+    "m_Group": {
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c9de5ad8c61b46b597651d1e01c20657",
     "m_Id": 0,
@@ -2221,16 +2315,16 @@
     "m_Type": "UnityEditor.ShaderGraph.GradientNode",
     "m_ObjectId": "cc6d2d774bf547939d649f2af60a7c98",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Gradient",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 300.0000305175781,
-            "y": 877.0000610351563,
-            "width": 208.00003051757813,
+            "x": 299.9999694824219,
+            "y": 822.0,
+            "width": 208.0,
             "height": 104.0
         }
     },
@@ -2351,6 +2445,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "d001ca9e8780407fb7316af411b952e0",
+    "m_Title": "COLORES DEL EFECTO",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "d2e42ce4f06b4279be4a00776a4f3ced",
     "m_Id": 0,
@@ -2423,6 +2528,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d6bc49f019a343a2ac135a4c82f23e4a",
+    "m_Title": "SMOOTHSTEP",
+    "m_Content": "En los gameplays que vi del videojuego, noté que este aura que tiene el poder de la estrella, era más marcado que solo el fresnel, entonces, este nodo me ayudó a que tenga ese grosor notorio que buscaba",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 804.0,
+        "y": 1561.0,
+        "width": 226.0,
+        "height": 475.0
+    },
+    "m_Group": {
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
     "m_ObjectId": "dc778634480548e29a33858a7aee6897",
     "m_Id": 0,
@@ -2450,17 +2575,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "dda2c097e6ec46bd871aba1c42efcf24",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "57c4ff9460284c16b43f5ff186526f9b"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 137.0,
-            "y": 1728.0001220703125,
-            "width": 143.99996948242188,
-            "height": 33.9998779296875
+            "x": 149.0,
+            "y": 2055.0,
+            "width": 144.00003051757813,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2483,20 +2608,40 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "dfee6bb319224c8a9f12129618e8998c",
+    "m_Title": "TIEMPO Y VELOCIDAD",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -145.0,
+        "y": 1002.0,
+        "width": 404.0,
+        "height": 376.0
+    },
+    "m_Group": {
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.FractionNode",
     "m_ObjectId": "e2d4186fc7d84db5b109ec00eb5cfe7b",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Fraction",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 300.0000305175781,
-            "y": 1004.0000610351563,
-            "width": 208.00003051757813,
-            "height": 277.99993896484377
+            "x": 299.9999694824219,
+            "y": 1066.0,
+            "width": 208.0,
+            "height": 278.0001220703125
         }
     },
     "m_Slots": [
@@ -2655,17 +2800,17 @@
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "f8672e915c7348dca72338f31a69b4a4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "d001ca9e8780407fb7316af411b952e0"
     },
     "m_Name": "Time",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -116.00003051757813,
-            "y": 986.0000610351563,
-            "width": 124.0,
-            "height": 172.99993896484376
+            "x": -134.0,
+            "y": 1071.0,
+            "width": 123.99995422363281,
+            "height": 173.0
         }
     },
     "m_Slots": [
