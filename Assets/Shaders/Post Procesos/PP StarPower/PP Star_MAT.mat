@@ -44,7 +44,12 @@ Material:
     m_Floats:
     - _Marco_X: 0.95
     - _Marco_Y: 0.97
+    - _Min_Clamp: -0.2
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Speed_Color: 1
+    - _Speed_Noise: 1
+    - _Speed_Tintineo: 5
     m_Colors:
     - _Marco_Grosor: {r: 0.97, g: 0.51, b: 0, a: 0}
   m_BuildTextureStacks: []
