@@ -42,8 +42,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Marco_X: 0.96
-    - _Marco_Y: 0.98
+    - _Marco_X: 0.95
+    - _Marco_Y: 0.97
     - _Speed_Color: 1
     m_Colors:
     - _Marco_Grosor: {r: 0.97, g: 0.51, b: 0, a: 0}
