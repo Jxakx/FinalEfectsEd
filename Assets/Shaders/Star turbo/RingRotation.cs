@@ -9,6 +9,6 @@ public class RingRotation : MonoBehaviour
     void Update()
     {
         // Rota el objeto en el eje X como si fuera una rueda
-        transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.down * rotationSpeed * Time.deltaTime);
     }
 }

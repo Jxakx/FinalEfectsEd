@@ -29768,7 +29768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478741860}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PS Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34710,8 +34710,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f20cff4c41e0e4643a34898b1d235a9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2058916607}
   m_SourcePrefab: {fileID: 100100000, guid: f20cff4c41e0e4643a34898b1d235a9e, type: 3}
+--- !u!1 &2058916605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f20cff4c41e0e4643a34898b1d235a9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1874075550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2058916607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058916605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06166bdd2842f2a45a9477e0ce3f0063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
