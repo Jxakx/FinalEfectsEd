@@ -42,6 +42,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Alpha: 0
     - _Marco_X: 0.95
     - _Marco_Y: 0.97
     - _Min_Clamp: -0.2

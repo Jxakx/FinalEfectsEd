@@ -238,7 +238,7 @@
                 "m_Node": {
                     "m_Id": "cd5dc721e2ca46dd84c3ec0eaebdb572"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             }
         },
         {
@@ -532,7 +532,7 @@
                 "m_Node": {
                     "m_Id": "cd5dc721e2ca46dd84c3ec0eaebdb572"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 1
             }
         },
         {
@@ -594,8 +594,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 509.00006103515627,
-            "y": -80.0
+            "x": 707.0001220703125,
+            "y": -182.0
         },
         "m_Blocks": [
             {
@@ -611,8 +611,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 509.00006103515627,
-            "y": 119.99999237060547
+            "x": 707.0001220703125,
+            "y": 18.0000057220459
         },
         "m_Blocks": [
             {
@@ -899,8 +899,8 @@
     "m_ObjectId": "11e0d4523ac34445baf7ce1301560986",
     "m_Title": "FRESNEL",
     "m_Position": {
-        "x": -598.0,
-        "y": 675.0000610351563
+        "x": -145.99978637695313,
+        "y": 826.9998779296875
     }
 }
 
@@ -1224,10 +1224,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2301.000244140625,
-            "y": 427.0000305175781,
+            "x": -1996.0,
+            "y": 649.0,
             "width": 124.0,
-            "height": 172.99996948242188
+            "height": 172.99993896484376
         }
     },
     "m_Slots": [
@@ -1299,8 +1299,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -303.0,
-            "y": 171.00001525878907,
+            "x": -360.0,
+            "y": 200.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -1385,10 +1385,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -128.99996948242188,
-            "y": 734.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 271.0000915527344,
+            "y": 886.0000610351563,
+            "width": 208.00015258789063,
+            "height": 302.00006103515627
         }
     },
     "m_Slots": [
@@ -1428,8 +1428,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -545.0,
-            "y": -158.00001525878907,
+            "x": -517.0,
+            "y": -326.0,
             "width": 208.0,
             "height": 278.0
         }
@@ -1567,15 +1567,15 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "3f04d77c0ed84a1994fdf9a3e4ef2bfd",
     "m_Title": "",
-    "m_Content": "Tomé un voronoi y un simple noise agregandole movimiento, para hacer que el fuego sea más orgánico combinando ambos efectos posteriormente.",
+    "m_Content": "Tomé un Voronoi y un Simple Noise agregandole movimiento, para hacer que el fuego sea más orgánico combinando ambos efectos posteriormente.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1927.0,
-        "y": 948.0,
-        "width": 200.0,
-        "height": 82.949951171875
+        "x": -1582.0,
+        "y": 1202.0,
+        "width": 149.0,
+        "height": 131.0
     },
     "m_Group": {
         "m_Id": "94bd074a0452411b86469786eb37d47f"
@@ -1717,10 +1717,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 519.0001220703125,
+            "y": 422.0000305175781,
+            "width": 199.9998779296875,
+            "height": 41.0
         }
     },
     "m_Slots": [
@@ -1866,10 +1866,10 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -439.0,
-        "y": 501.0,
-        "width": 200.0,
-        "height": 108.0
+        "x": -600.0,
+        "y": 146.0,
+        "width": 456.0,
+        "height": 366.0
     },
     "m_Group": {
         "m_Id": ""
@@ -1951,10 +1951,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -309.9999694824219,
-            "y": 1070.9998779296875,
-            "width": 161.00001525878907,
-            "height": 34.0001220703125
+            "x": 99.00006103515625,
+            "y": 1223.0001220703125,
+            "width": 161.0,
+            "height": 33.9998779296875
         }
     },
     "m_Slots": [
@@ -2026,10 +2026,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1599.0,
-            "y": -404.9999694824219,
-            "width": 208.0,
-            "height": 301.99993896484377
+            "x": -1586.0001220703125,
+            "y": -179.0,
+            "width": 208.0001220703125,
+            "height": 302.0000305175781
         }
     },
     "m_Slots": [
@@ -2157,10 +2157,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1470.0,
-            "y": 407.0,
-            "width": 208.0,
-            "height": 361.0
+            "x": -1386.0,
+            "y": 624.0,
+            "width": 207.9998779296875,
+            "height": 361.00006103515627
         }
     },
     "m_Slots": [
@@ -2205,10 +2205,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -931.0000610351563,
-            "y": -213.0,
-            "width": 208.0,
-            "height": 302.0000305175781
+            "x": -948.0000610351563,
+            "y": -181.00001525878907,
+            "width": 207.99993896484376,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -2248,8 +2248,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2418.0,
-            "y": -404.9999694824219,
+            "x": -2194.0,
+            "y": -179.0,
             "width": 208.0,
             "height": 312.9999694824219
         }
@@ -2544,10 +2544,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -947.0,
-            "y": 407.0,
+            "x": -948.0000610351563,
+            "y": 624.0,
             "width": 207.99993896484376,
-            "height": 302.00006103515627
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -2611,10 +2611,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1952.0,
-            "y": -382.9999694824219,
+            "x": -1817.0,
+            "y": -179.0,
             "width": 208.0,
-            "height": 277.9999694824219
+            "height": 278.0000305175781
         }
     },
     "m_Slots": [
@@ -2651,10 +2651,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1158.0001220703125,
-            "y": 738.9999389648438,
-            "width": 118.0,
-            "height": 149.00006103515626
+            "x": -1088.0,
+            "y": 1037.0,
+            "width": 118.00006103515625,
+            "height": 149.0001220703125
         }
     },
     "m_Slots": [
@@ -2747,8 +2747,8 @@
     "m_ObjectId": "7f649defd9cd4bd5ba5a05603b9b42f2",
     "m_Title": "FADE",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": -2219.0,
+        "y": -238.0
     }
 }
 
@@ -2764,10 +2764,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2120.0,
-            "y": -369.0,
-            "width": 120.0,
-            "height": 149.0
+            "x": -1959.0,
+            "y": -179.0,
+            "width": 119.9998779296875,
+            "height": 149.00001525878907
         }
     },
     "m_Slots": [
@@ -2946,10 +2946,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1470.0,
-            "y": 819.9999389648438,
-            "width": 208.0,
-            "height": 337.00006103515627
+            "x": -1386.0,
+            "y": 1037.0,
+            "width": 207.9998779296875,
+            "height": 337.0001220703125
         }
     },
     "m_Slots": [
@@ -3064,10 +3064,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 12.000025749206543,
-            "y": 19.99998664855957,
-            "width": 207.99993896484376,
-            "height": 302.0
+            "x": 167.00001525878907,
+            "y": 18.00002670288086,
+            "width": 208.00013732910157,
+            "height": 301.99993896484377
         }
     },
     "m_Slots": [
@@ -3140,8 +3140,8 @@
     "m_ObjectId": "94bd074a0452411b86469786eb37d47f",
     "m_Title": "NOISE CON MOVIMIENTO",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": -2021.0,
+        "y": 565.0
     }
 }
 
@@ -3468,10 +3468,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 139.0,
-            "y": 734.0,
-            "width": 208.0,
-            "height": 326.0
+            "x": 499.00006103515627,
+            "y": 886.0000610351563,
+            "width": 207.99993896484376,
+            "height": 325.99993896484377
         }
     },
     "m_Slots": [
@@ -3512,9 +3512,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1757.9998779296875,
-            "y": 545.0,
-            "width": 208.0,
+            "x": -1619.0,
+            "y": 763.0000610351563,
+            "width": 207.9998779296875,
             "height": 325.99993896484377
         }
     },
@@ -3620,10 +3620,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1240.0001220703125,
-            "y": -105.0,
-            "width": 208.0001220703125,
-            "height": 435.0
+            "x": -1177.0,
+            "y": -95.99999237060547,
+            "width": 208.0,
+            "height": 435.0000305175781
         }
     },
     "m_Slots": [
@@ -3680,10 +3680,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -573.0,
-            "y": 1070.9998779296875,
-            "width": 145.00003051757813,
-            "height": 34.0001220703125
+            "x": -120.99993133544922,
+            "y": 1223.0001220703125,
+            "width": 145.0,
+            "height": 33.9998779296875
         }
     },
     "m_Slots": [
@@ -3752,10 +3752,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2287.0,
-            "y": 683.9999389648438,
-            "width": 110.0,
-            "height": 34.00006103515625
+            "x": -1982.0001220703125,
+            "y": 843.0000610351563,
+            "width": 110.0001220703125,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -3833,14 +3833,14 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "b9091c4647444e4ca211167da664055a",
     "m_Title": "",
-    "m_Content": "Utilizacion de un float para darle suavizado a la textura de fuego.",
+    "m_Content": "Aquí utilicé un float para darle suavizado a la textura de fuego y que no se vea tan duro\n",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2155.0,
-        "y": -102.0,
-        "width": 200.0,
+        "x": -1964.0,
+        "y": 10.0,
+        "width": 130.0,
         "height": 100.0
     },
     "m_Group": {
@@ -4036,10 +4036,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1845.0,
-            "y": -33.000003814697269,
+            "x": -1701.0001220703125,
+            "y": 106.00003051757813,
             "width": 101.0,
-            "height": 33.999961853027347
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -4094,9 +4094,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -224.99998474121095,
-            "y": -213.00001525878907,
-            "width": 129.99998474121095,
+            "x": -281.0,
+            "y": -191.0,
+            "width": 130.0,
             "height": 118.0
         }
     },
@@ -4195,8 +4195,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -442.0,
-            "y": -202.00001525878907,
+            "x": -404.0,
+            "y": -39.0,
             "width": 105.0,
             "height": 34.0
         }
@@ -4349,14 +4349,14 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "e53b654cfa2643fbb4e8ab0f432ddc21",
     "m_Title": "",
-    "m_Content": "Agregué un fresnel para darle un bordeado al fuego ya que sin él se veia precario.",
+    "m_Content": "Agregué un fresnel para darle un bordeado al fuego, ya que sin él se veia precario.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -102.0,
-        "y": 1054.0,
-        "width": 200.0,
+        "x": -115.0,
+        "y": 1032.0,
+        "width": 128.0,
         "height": 100.0
     },
     "m_Group": {
@@ -4481,10 +4481,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2097.0,
-            "y": 545.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": -1848.0,
+            "y": 763.0000610351563,
+            "width": 207.9998779296875,
+            "height": 301.99993896484377
         }
     },
     "m_Slots": [
@@ -4524,10 +4524,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -408.9999694824219,
-            "y": 734.0,
-            "width": 208.00001525878907,
-            "height": 326.0
+            "x": 43.000099182128909,
+            "y": 886.0000610351563,
+            "width": 207.9998779296875,
+            "height": 325.99993896484377
         }
     },
     "m_Slots": [
@@ -4750,10 +4750,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1408.0,
-            "y": -66.99999237060547,
-            "width": 138.9998779296875,
-            "height": 34.0000114440918
+            "x": -1331.0001220703125,
+            "y": 38.999961853027347,
+            "width": 139.0,
+            "height": 34.00000762939453
         }
     },
     "m_Slots": [
