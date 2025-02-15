@@ -127,9 +127,6 @@
             "m_Id": "43ae45f4043d41acb54aea44ba0e1cb0"
         },
         {
-            "m_Id": "437a54d957d34dd4b4e2018fcd885373"
-        },
-        {
             "m_Id": "f1123f986d01430d9e340649964ac2db"
         },
         {
@@ -148,8 +145,31 @@
             "m_Id": "cb85b7910414401ea4cb0ecd89cd0c5a"
         }
     ],
-    "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
+        },
+        {
+            "m_Id": "94bd074a0452411b86469786eb37d47f"
+        },
+        {
+            "m_Id": "11e0d4523ac34445baf7ce1301560986"
+        }
+    ],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "b9091c4647444e4ca211167da664055a"
+        },
+        {
+            "m_Id": "3f04d77c0ed84a1994fdf9a3e4ef2bfd"
+        },
+        {
+            "m_Id": "4e6f3891fee9457e9d875b6b94acb143"
+        },
+        {
+            "m_Id": "e53b654cfa2643fbb4e8ab0f432ddc21"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -219,20 +239,6 @@
                     "m_Id": "cd5dc721e2ca46dd84c3ec0eaebdb572"
                 },
                 "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "437a54d957d34dd4b4e2018fcd885373"
-                },
-                "m_SlotId": 4
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "3d3656985f834a04ab41acc9d1ff1a6b"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -384,7 +390,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "437a54d957d34dd4b4e2018fcd885373"
+                    "m_Id": "3d3656985f834a04ab41acc9d1ff1a6b"
                 },
                 "m_SlotId": 0
             }
@@ -761,7 +767,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"45d26668b75c6ad4db6d336af5ac1ad3\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f727ad9983a400341805fff589dd0450\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -885,6 +891,17 @@
     },
     "isMainColor": false,
     "m_ColorMode": 1
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "11e0d4523ac34445baf7ce1301560986",
+    "m_Title": "FRESNEL",
+    "m_Position": {
+        "x": -598.0,
+        "y": 675.0000610351563
+    }
 }
 
 {
@@ -1200,7 +1217,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "2626912c43ec44cb8f07deeaffa03bfc",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Time",
     "m_DrawState": {
@@ -1361,16 +1378,16 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "3a87028d1f014522b2a31afe380e9441",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -134.0,
-            "y": 589.0000610351563,
-            "width": 207.99996948242188,
+            "x": -128.99996948242188,
+            "y": 734.0,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -1397,21 +1414,6 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "3a9cfff8f9284124962fe13d4f6788a4",
-    "m_Id": 4,
-    "m_DisplayName": "A",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "A",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -1562,6 +1564,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3f04d77c0ed84a1994fdf9a3e4ef2bfd",
+    "m_Title": "",
+    "m_Content": "Tomé un voronoi y un simple noise agregandole movimiento, para hacer que el fuego sea más orgánico combinando ambos efectos posteriormente.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1927.0,
+        "y": 948.0,
+        "width": 200.0,
+        "height": 82.949951171875
+    },
+    "m_Group": {
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "403326a347a949ac96c46562adacad18",
     "m_Id": 1,
@@ -1681,53 +1703,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SplitNode",
-    "m_ObjectId": "437a54d957d34dd4b4e2018fcd885373",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Split",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 275.0,
-            "y": 274.0,
-            "width": 120.0,
-            "height": 149.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "8008409e76f8405c9cc6b81bc6e442bf"
-        },
-        {
-            "m_Id": "c820183427e045e1996d90370c875b3a"
-        },
-        {
-            "m_Id": "978c661b0bdd42a0800fe26092f850b0"
-        },
-        {
-            "m_Id": "6510031fd22d480b9108b83c84047e31"
-        },
-        {
-            "m_Id": "3a9cfff8f9284124962fe13d4f6788a4"
-        }
-    ],
-    "synonyms": [
-        "separate"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    }
 }
 
 {
@@ -1883,6 +1858,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "4e6f3891fee9457e9d875b6b94acb143",
+    "m_Title": "",
+    "m_Content": "Se hace la combinación de la textura con los noise y se pasa por el step para tomar los valores negativos y positivos (blanco y negro).",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -439.0,
+        "y": 501.0,
+        "width": 200.0,
+        "height": 108.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "4fae70b8b81e46c3b4c0a34806805631",
     "m_Id": 1,
@@ -1949,17 +1944,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "518c6126a81a4e74b25a66b36bae61b8",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -315.0,
-            "y": 926.0,
-            "width": 161.0,
-            "height": 34.0
+            "x": -309.9999694824219,
+            "y": 1070.9998779296875,
+            "width": 161.00001525878907,
+            "height": 34.0001220703125
         }
     },
     "m_Slots": [
@@ -2024,7 +2019,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PowerNode",
     "m_ObjectId": "5508cbc8c5d54387b0814d75ea44e095",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
     },
     "m_Name": "Power",
     "m_DrawState": {
@@ -2155,7 +2150,7 @@
     "m_Type": "UnityEditor.ShaderGraph.VoronoiNode",
     "m_ObjectId": "57cde897b8f541148b076eaadb2e00a9",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Voronoi",
     "m_DrawState": {
@@ -2246,7 +2241,7 @@
     "m_Type": "UnityEditor.ShaderGraph.UVNode",
     "m_ObjectId": "5a0d4222f0184faeab59c0bf72c43c91",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
     },
     "m_Name": "UV",
     "m_DrawState": {
@@ -2440,21 +2435,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "6510031fd22d480b9108b83c84047e31",
-    "m_Id": 3,
-    "m_DisplayName": "B",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "B",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
     "m_SGVersion": 2,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalLitSubTarget",
     "m_ObjectId": "66aa7710fbf94557abf8aeaa378c4a06",
@@ -2624,7 +2604,7 @@
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
     "m_ObjectId": "7208c01fcba945cbaa211f947001f8a4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
     },
     "m_Name": "One Minus",
     "m_DrawState": {
@@ -2763,25 +2743,12 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "8008409e76f8405c9cc6b81bc6e442bf",
-    "m_Id": 0,
-    "m_DisplayName": "In",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "In",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "7f649defd9cd4bd5ba5a05603b9b42f2",
+    "m_Title": "FADE",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
     }
 }
 
@@ -2790,7 +2757,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "84c8cabde4cd42fe861f335e0282ed0e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -2972,7 +2939,7 @@
     "m_Type": "UnityEditor.ShaderGraph.NoiseNode",
     "m_ObjectId": "8c62c98e7c164c38b6162fa1a7ab61fa",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Simple Noise",
     "m_DrawState": {
@@ -3169,6 +3136,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "94bd074a0452411b86469786eb37d47f",
+    "m_Title": "NOISE CON MOVIMIENTO",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "95a4023420554b1daef1f0ced503d22a",
     "m_Id": 1,
@@ -3213,21 +3191,6 @@
         "e32": 0.0,
         "e33": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "978c661b0bdd42a0800fe26092f850b0",
-    "m_Id": 2,
-    "m_DisplayName": "G",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "G",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -3498,16 +3461,16 @@
     "m_Type": "UnityEditor.ShaderGraph.SmoothstepNode",
     "m_ObjectId": "a3075fb0ea4a4ddb9415acc4ec3a54d6",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
     },
     "m_Name": "Smoothstep",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 133.99996948242188,
-            "y": 589.0000610351563,
-            "width": 208.00003051757813,
+            "x": 139.0,
+            "y": 734.0,
+            "width": 208.0,
             "height": 326.0
         }
     },
@@ -3542,7 +3505,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
     "m_ObjectId": "a3f5bd931df14b80b8b3980e63024d23",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Tiling And Offset",
     "m_DrawState": {
@@ -3710,17 +3673,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "ac5173af48ee4e5389575ab72af247c2",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -578.0,
-            "y": 926.0,
-            "width": 145.0,
-            "height": 34.0
+            "x": -573.0,
+            "y": 1070.9998779296875,
+            "width": 145.00003051757813,
+            "height": 34.0001220703125
         }
     },
     "m_Slots": [
@@ -3782,7 +3745,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "aeea725180b049898ef0e1701336bac2",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -3863,6 +3826,26 @@
     "m_Value": 50.0,
     "m_DefaultValue": 500.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b9091c4647444e4ca211167da664055a",
+    "m_Title": "",
+    "m_Content": "Utilizacion de un float para darle suavizado a la textura de fuego.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2155.0,
+        "y": -102.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
+    }
 }
 
 {
@@ -4014,21 +3997,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "c820183427e045e1996d90370c875b3a",
-    "m_Id": 1,
-    "m_DisplayName": "R",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "R",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
     "m_ObjectId": "cae6ac60b37c4ccd997d986c5ba2d66a",
@@ -4061,17 +4029,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "cb85b7910414401ea4cb0ecd89cd0c5a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "7f649defd9cd4bd5ba5a05603b9b42f2"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1847.863037109375,
-            "y": -33.459251403808597,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1845.0,
+            "y": -33.000003814697269,
+            "width": 101.0,
+            "height": 33.999961853027347
         }
     },
     "m_Slots": [
@@ -4378,6 +4346,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e53b654cfa2643fbb4e8ab0f432ddc21",
+    "m_Title": "",
+    "m_Content": "Agregué un fresnel para darle un bordeado al fuego ya que sin él se veia precario.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -102.0,
+        "y": 1054.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "e726e4b10cb24334a14f3df0ffa9fa24",
     "m_Id": 3,
@@ -4486,7 +4474,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "f0faf6dc60694079ad887fa4064b251a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "94bd074a0452411b86469786eb37d47f"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -4529,17 +4517,17 @@
     "m_Type": "UnityEditor.ShaderGraph.FresnelNode",
     "m_ObjectId": "f1123f986d01430d9e340649964ac2db",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "11e0d4523ac34445baf7ce1301560986"
     },
     "m_Name": "Fresnel Effect",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -414.0,
-            "y": 588.9999389648438,
-            "width": 208.00003051757813,
-            "height": 326.00006103515627
+            "x": -408.9999694824219,
+            "y": 734.0,
+            "width": 208.00001525878907,
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -4762,10 +4750,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1530.0,
-            "y": -62.00001907348633,
-            "width": 139.0,
-            "height": 34.00000762939453
+            "x": -1408.0,
+            "y": -66.99999237060547,
+            "width": 138.9998779296875,
+            "height": 34.0000114440918
         }
     },
     "m_Slots": [

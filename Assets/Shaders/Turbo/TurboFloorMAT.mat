@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2648826359657082378
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TurboFloor
-  m_Shader: {fileID: -6465566751694194690, guid: 0bbb9dd89f204a34285bbbb28ccf0927,
+  m_Name: TurboFloorMAT
+  m_Shader: {fileID: -6465566751694194690, guid: 49f1c009187007744b3715a7539a1280,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,25 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fade: -0.63
+    - _Fade: -0.3
     - _FresnelTurbo: 3
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Color: {r: 4, g: 4, b: 4, a: 1}
-    - _FresnelColorTur: {r: 0, g: 2.7293334, b: 3.962264, a: 0.34901962}
+    - _FresnelColorTur: {r: 0.07725173, g: 1.5508869, b: 2.3396225, a: 0.34901962}
     - _Speed: {r: 0, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5759996410213610720
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7

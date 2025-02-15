@@ -42,10 +42,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 1
+    - _Alpha: 0
     - _DripSpeed: 0
     - _EdgePosition: 0.08
-    - _InkAlpha: 4
+    - _InkAlpha: 3.34
     - _InkSize: 1
     m_Colors:
     - _InkPosition: {r: 0, g: 0, b: 0, a: 0}
